@@ -1,15 +1,21 @@
 # CafeBucks
 
+### Description
+
+---
+
+A website for cafe management I and my friends had done as a college project. It can be migrated into full POS system if I have available time to do it.
+
 ### Tasks
 
 ---
 
 - [x]  API Specification
-- [ ]  Setup Environment for Raspberry Pi
+- [x]  Setup Environment for Raspberry Pi
 - [x]  Docker Compose + Docker Volume
 - [x]  SQLite Setup
 - [x]  RFID with WebSocket
-- [ ]  Order’s Receipt PDF File
+- [x]  Order’s Receipt PDF File
 - [x]  Date Querying for Staffs and Orders Checking
 - [x]  Shopping Cart System Using React
 - [x]  Fix Authentication Mechanism
@@ -18,7 +24,16 @@
 - [x]  Commenting
 - [x]  Website’s Icon + Title
 
-### Description
+### Further Upgrade to Full POS System
+
+---
+
+- [ ]  Migrate database from SQLite to MySQL (or PostgreSQL).
+- [ ]  Edit the database to support different branches.
+- [ ]  Display PDF file in purchase page
+- [ ]  Purchase history page
+
+### Notes
 
 ---
 
@@ -28,7 +43,7 @@
 - Donny will be checking on shopping cart system and dashboard (frontend).
 - We’ll use PDF file for saving order’s receipt.
 
-### Sources
+### Resources
 
 ---
 

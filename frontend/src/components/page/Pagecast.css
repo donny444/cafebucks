@@ -18,7 +18,7 @@
    font-weight: bold;
 }
 .item-image{
-     margin-left:70px ;
+     /* margin-left:70px ; */
 }
 .quantity-button {
   position: relative;
@@ -58,4 +58,10 @@
    right: 15px;
    cursor: pointer;
    font-size: 20px;
+}
+
+.cast-item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }

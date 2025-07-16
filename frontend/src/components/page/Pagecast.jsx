@@ -67,6 +67,18 @@ const Pagecast = () => {
                 <button className="btn btn-danger" onClick={() => removeFromCart(item.id)}>
                   <p className="fs-5">Remove</p>
                 </button>
+            <div className="cast-item container p-2 my-3 border" key={item.id}>
+              <div class="d-flex justify-content gap-5">
+              <img className="item-image" src={`/src/assets/img/${item.filename}`} alt={item.filename} style={{ width: "90px", height: "auto" }} />
+              <h3 className="item-name m-2" style={{ fontSize: "1.5rem" }}>{item.name}</h3>  
+              
+              <div className="d-flex gap-3" >                         
+              <button className="btn btn-outline-secondary quantity-button" onClick={() => decreaseQuantity(item.id)}>-</button>
+              <p className="item-quantity m-0">{item.quantity}</p>
+              <button className="btn btn-outline-secondary quantity-button" onClick={() => increaseQuantity(item.id)}>+</button>     
+              </div>   
+            
+              <button class= "btn btn-danger"   onClick={() => removeFromCart(item.id)}><p class="fs-5">Remove</p></button>
               </div>
             </div>
           </div>

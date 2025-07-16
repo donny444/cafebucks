@@ -16,6 +16,7 @@ const PageDashboard = () => {
             const response = await axios.get('http://localhost:8085/receipts/top-menu-sales');
             const formattedData = response.data.map(item => ({
                 totalQuantity: item.total_quantity,
+                totalPrice: item.total_price,
                 combinedLabel: `${item.menu.name} (${item.menu.type})`,
             }));
             console.log(formattedData);
@@ -87,7 +88,7 @@ const PageDashboard = () => {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="totalQuantity" fill="#8884d8" />
+                    <Bar dataKey="totalPrice" fill="#8884d8" />
                 </BarChart>
             </div>
 
