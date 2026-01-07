@@ -1,14 +1,12 @@
 # CafeBucks
 
-### Description
+## Description
+
+A website for cafe management I and my friends had done as a college project. It can be migrated into full POS system if I have available time to do it. 
 
 ---
 
-A website for cafe management I and my friends had done as a college project. It can be migrated into full POS system if I have available time to do it.
-
-### Tasks
-
----
+## Tasks
 
 - [x]  API Specification
 - [x]  Setup Environment for Raspberry Pi
@@ -24,29 +22,37 @@ A website for cafe management I and my friends had done as a college project. It
 - [x]  Commenting
 - [x]  Website’s Icon + Title
 
-### Further Upgrade to Full POS System
-
 ---
 
-- [ ]  Migrate database from SQLite to MySQL (or PostgreSQL).
-- [ ]  Edit the database to support different branches.
-- [ ]  Display PDF file in purchase page
-- [ ]  Purchase history page
+<aside>
+ℹ️
 
-### Notes
+## Notes
 
----
-
-- There’s gonna have 2 roles (staff and admin)
+- There’s gonna have 2 roles (staff and manager)
 - We have to use admin authorization to access staffs checking page.
 - Tee said he wants RFID authorization for admin access.
 - Donny will be checking on shopping cart system and dashboard (frontend).
 - We’ll use PDF file for saving order’s receipt.
-
-### Resources
+</aside>
 
 ---
+
+## Further Upgrade to Full POS System
+
+- [ ]  Migrate database from SQLite to PostgreSQL.
+- [ ]  Redesign the database schema to support different branches and recipes stock.
+- [ ]  Display PDF file in purchase page.
+- [ ]  Purchase history page.
+- [ ]  Redesign the UI using Bootstrap.
+- [ ]  Dashboard filtering.
+
+---
+
+## Resources
 
 - API Spec in Postman
 - ER Diagram in Paper
 - Markdown Note
+
+---
